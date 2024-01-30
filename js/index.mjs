@@ -6,7 +6,7 @@ let currentWeapon = 0;
 
 let fighting;
 let monsterHealth;
-let inventory = ["stick"]; 
+let inventory = ["Stick"]; 
 
 const button1 = document.querySelector("#button1");
 const button2 = document.querySelector("#button2");
@@ -21,29 +21,29 @@ const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 
 const weapons = [ 
-    {name: "stick",
+    {name: "Stick",
     power: 5},
-    {name: "dagger",
+    {name: "Dagger",
     power: 30},
-    {name: "claw hammer",
+    {name: "Claw Hammer",
     power: 50},
-    {name: "sword",
+    {name: "Sword",
     power: 100}
 ]
 
 const monsters = [
     {
-      name: "slime",
+      name: "Slime",
       level: 2,
       health: 15
     },
     {
-      name: "fanged beast",
+      name: "Fanged Beast",
       level: 8,
       health: 60
     },
     {
-      name: "dragon",
+      name: "Dragon",
       level: 20,
       health: 300
     }
